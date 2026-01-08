@@ -1,0 +1,34 @@
+1)echo //it is just like console.log() in javascript it just print
+to create a variable we type variable name and its value like "num1=2" "num2=2" to print what inside number we do "echo $num1" to pluse it we do and print "echo $((num1+num2))" if ther is more and more code and want to run together we create a ".sh" file
+
+pwd #print working directory
+whoami #print which user
+
+#cd -> to change directory
+#ls => to list folders/files
+#touch => to create a file
+#mkdir => to create a folder
+#cp => to copy file from one place to another. cp <fileoneCopyIt> <fileTwoPasteHere>
+#mv => to move file from one place to another
+
+rm => to remove file
+rmdir => to remove folder
+rm -rf => another way to remove folder if it contains more file in it will do recuservily to each file and delete it.
+
+cat => means concaniate it print long file by concaniating.
+//////////////////////////////////////////////////////////////////////////////////////////////////
+what is prompt?
+prompt is what which written before $ whenever terminal opens."aman@aman:~/nodejs_course/02_basics_of_terminal$"
+
+we can chage that name useing prompt string variable "PS1='aman'" this will all that to aman.
+it automatically get reset after opening new terminal.
+Ther is also "PS2" which is a when we go to next line what before come is called ps2 THERE ARE TILL PS4.
+
+TO PERMEANETLY CHANGE IT WE EDIT .bashrc FILE 
+what .bashrc file do?
+IT RUN AT EVERYTIME NEW TERMINAL WHEN IT OPEN.ACUALLY FIRST .bashrc_profile FILE RUNS FIRST THEN THIS BUT IT OTHER MATTER NOT NEED.
+
+
+WHAT IS ALIAS?
+alias make long command shorter just like we do in package.json long comman into short just like that for example => alias source="source ~/.bashrc"  we can just type source and file re run rather than typing long command;
+
