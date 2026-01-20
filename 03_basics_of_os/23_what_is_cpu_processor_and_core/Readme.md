@@ -297,7 +297,15 @@ Important Truth (Very important for exams & interviews)
 Timeline summary
 ----------------
 
-EraWhat changedEarly CPUsOne program at a time1960s–70sTime sharing OS1980sContext switching1990sPreemptive multitasking2000sHyper-ThreadingTodayMulti-core + SMT
+| Era            | What Changed                |
+|----------------|-----------------------------|
+| Early CPUs     | One program at a time       |
+| 1960s–70s      | Time-sharing OS             |
+| 1980s          | Context switching           |
+| 1990s          | Preemptive multitasking     |
+| 2000s          | Hyper-Threading             |
+| Today          | Multi-core + SMT            |
+
 
 Simple real-life example
 ------------------------
