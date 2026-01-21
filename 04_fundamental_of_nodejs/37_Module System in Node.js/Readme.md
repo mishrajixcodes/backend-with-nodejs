@@ -38,7 +38,12 @@ console.log(math.add(2, 3));
 ### Example
 ```javascript
 
-   // math.js  export const add = (a, b) => a + b;  // app.js  import { add } from "./math.js";  console.log(add(2, 3));   
+   // math.js 
+   //  export const add = (a, b) => a + b;  
+   
+   // app.js  
+   // import { add } from "./math.js"; 
+   //  console.log(add(2, 3));   
 ```
 
 Variable Scope: Node.js vs Browser
