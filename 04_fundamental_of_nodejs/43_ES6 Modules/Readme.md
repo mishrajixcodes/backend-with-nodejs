@@ -18,7 +18,7 @@ import { num, sum } from "./math.js";
 ```
 
 
-👉 **Important rule:**In ES6 modules, you **must write the file extension** (.js, .mjs, .ts, etc.).
+👉 **Important rule:** In ES6 modules, you **must write the file extension** (.js, .mjs, .ts, etc.).
 
 ```javascript
    // ❌ Wrong  import { num } from "./math"; 

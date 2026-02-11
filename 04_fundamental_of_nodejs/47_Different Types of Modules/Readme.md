@@ -42,7 +42,7 @@ In Node.js, modules are mainly divided into **three types**:
 *   fs (File System) is a **core module**.
     
 
-✅ **Good Practice:**We can also write:
+✅ **Good Practice:** We can also write:
 
 ```javascript
    import fs from "node:fs";   

@@ -12,7 +12,7 @@ Differences Between CommonJS (CJS) and ES6 / ES Modules (ESM) in Node.js
 | Event loop impact | Can block for large modules | Better for large apps & servers |
 
 
-✅ **Correction:**ESM does **not fully run on a separate thread**, but **module resolution & linking are async**, which is why it feels non-blocking.
+✅ **Correction:** ESM does **not fully run on a separate thread**, but **module resolution & linking are async**, which is why it feels non-blocking.
 
 2\. Import Syntax & Hoisting
 ----------------------------
